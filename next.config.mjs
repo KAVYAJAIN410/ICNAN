@@ -14,7 +14,6 @@ try {
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // enable static HTML export
   eslint: {
     ignoreDuringBuilds: true,
   },
